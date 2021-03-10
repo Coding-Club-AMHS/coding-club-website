@@ -16,7 +16,7 @@ export default class Home extends React.Component {
     return (
       <div className={styles.container}>
         <Head>
-          <title>Coding Club AMHS</title>
+          <title>tttttttttttttttttttttttttttttttttt</title>
         </Head>
   
         <main className={styles.main}>
