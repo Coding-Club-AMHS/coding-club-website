@@ -7,7 +7,11 @@ import React from 'react';
 import IntroScreen from '../components/IntroScreen';
 
 export default class Home extends React.Component {
-  
+
+  state = {
+    hasFinishedLoading: false
+  };
+
   static getInitialProps() {
     return {};
   }
