@@ -10,9 +10,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Container>
-            <h1>Coding Club AMHS</h1>
-        </Container>
+        <h1>Coding Club AMHS</h1>
       </main>
 
       <footer className={styles.footer}>
