@@ -17,5 +17,9 @@ export const StyledHeading = styled.div`
     .clicktext {
         color: #61de2a;
     }
+
+    .clicktextflash {
+        opacity: 0;
+    }
     
 `

@@ -1,10 +1,10 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import {StyledHeading} from '../components/Heading.styled'
-import AnimatedEllipses from '../components/AnimatedEllipses'
 
 import Container from 'react-bootstrap/Container';
 import React from 'react';
+import IntroScreen from '../components/IntroScreen';
 
 export default class Home extends React.Component {
   
@@ -12,7 +12,6 @@ export default class Home extends React.Component {
     return {};
   }
 
-  
   render() {
     return (
       <div className={styles.container}>
@@ -21,14 +20,7 @@ export default class Home extends React.Component {
         </Head>
   
         <main className={styles.main}>
-          <StyledHeading>
-            <div className="top">
-              <AnimatedEllipses/>
-            </div>
-            <div className="clicktext">
-              {"> click anywhere to continue <"}
-            </div>
-          </StyledHeading>
+          <IntroScreen />
         </main>
   
         <footer className={styles.footer}>
