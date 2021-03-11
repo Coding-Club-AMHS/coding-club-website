@@ -1,16 +1,13 @@
 import React, { useEffect, useState } from 'react';
+import StyledHomePageScreen from './HomePageScreen.styled';
 import Container from 'react-bootstrap/Container'
 
-const HomePageScreen = ({className}) => {
-    const [opacity, setOpacity] = useState(0);
-    useEffect(() => {
-        //bandaid transition solution
-        if(opacity < 1) setTimeout(() => {setOpacity(opacity+0.1)}, 300) 
-    }, [opacity])
+const HomePageScreen = () => {
+
     return (
-        <Container>
-            <h1 style={{opacity: opacity}}>Welcome to the official Coding Club at Alexander Mackenzie High School! We are a community of coding enthusiasts.</h1>
-        </Container>
+        <StyledHomePageScreen>
+            <h1>Welcome to the official Coding Club at Alexander Mackenzie High School! <br></br> <br></br>We are a community of coding enthusiasts. </h1>
+        </StyledHomePageScreen>
     )
 }
 
