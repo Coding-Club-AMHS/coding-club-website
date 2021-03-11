@@ -1,6 +1,7 @@
 import React from 'react';
 import StyledHomePageScreen from './HomePageScreen.styled';
 import Container from 'react-bootstrap/Container'
+import Navbar from './Navbar.js';
 
 const HomePageScreen = () => {
 

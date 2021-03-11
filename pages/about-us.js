@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import styles from '../styles/Home.module.css'
+import Navbar from '../components/Navbar'
 
 
 const AboutUs = () => {
@@ -12,6 +13,7 @@ const AboutUs = () => {
                 <title>About Us</title>
             </Head>
             <main className={styles.main}>
+                <Navbar />
                 <Container>
                     <Row className={styles.containerrow}>
                         <div className={styles.title}>

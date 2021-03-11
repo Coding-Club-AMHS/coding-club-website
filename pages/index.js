@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import React from 'react';
-
+import Navbar from '../components/Navbar';
 import IntroScreen from '../components/IntroScreen';
 import HomePageScreen from '../components/HomePageScreen';
 
@@ -26,6 +26,7 @@ export default class Home extends React.Component {
         </Head>
   
         <main className={styles.main}>
+            <Navbar />
             {/* loads initial screen */} 
             {hasFinishedLoading ? <HomePageScreen /> : <IntroScreen />}
         </main>

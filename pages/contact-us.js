@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Navbar from '../components/Navbar'
 
 
 const ContactUs = () => {
@@ -9,6 +10,7 @@ const ContactUs = () => {
                 <title>Contact Us</title>
             </Head>
             <main className={styles.main}>
+                <Navbar />
                 <div className={styles.title}>
                     Contact Us
                 </div>
