@@ -1,97 +1,30 @@
 import Head from 'next/head'
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import styles from '../styles/Home.module.css'
 
 
 const AboutUs = () => {
     return (
-        <div className={styles.container}>
+        <div className={styles.container} id={styles.whoarewe}>
             <Head>
                 <title>About Us</title>
             </Head>
             <main className={styles.main}>
-                <div className={styles.title}>
-                    Who are we?
-                </div>
-                <div className={styles.description}>
-                Bee Movie Script - Dialogue Transcript
+                <Container>
+                    <Row className={styles.containerrow}>
+                        <div className={styles.title}>
+                            Who are we?
+                        </div>
+                        <Col className={styles.description}>
+                            We are a welcoming team of students who wish to promote coding within the AMHS community.
+                        </Col>
+                    </Row>
 
-According to all known laws
-of aviation,
+                </Container>
 
-  
-there is no way a bee
-should be able to fly.
 
-  
-Its wings are too small to get
-its fat little body off the ground.
-
-  
-The bee, of course, flies anyway
-
-  
-because bees don't care
-what humans think is impossible.
-
-  
-Yellow, black. Yellow, black.
-Yellow, black. Yellow, black.
-
-  
-Ooh, black and yellow!
-Let's shake it up a little.
-
-  
-Barry! Breakfast is ready!
-
-  
-Ooming!
-
-  
-Hang on a second.
-
-  
-Hello?
-
-  
-- Barry?
-- Adam?
-
-  
-- Oan you believe this is happening?
-- I can't. I'll pick you up.
-
-  
-Looking sharp.
-
-  
-Use the stairs. Your father
-paid good money for those.
-
-  
-Sorry. I'm excited.
-
-  
-Here's the graduate.
-We're very proud of you, son.
-
-  
-A perfect report card, all B's.
-
-  
-Very proud.
-
-  
-Ma! I got a thing going here.
-
-  
-- You got lint on your fuzz.
-- Ow! That's me!
-
-  
-- Wave to us! We'll be in row 118,000.
-- Bye!
-                </div>
             </main>
         </div>
     )
