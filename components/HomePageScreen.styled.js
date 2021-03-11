@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import Container from 'react-bootstrap/Container'
 
 const StyledHomePageScreen = styled(Container)`
-background-color:white;
 display: flex;
 flex-direction: column;
 align-items:center;
