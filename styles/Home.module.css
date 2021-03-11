@@ -1,28 +1,37 @@
+#unloaded {
+  background-color: black;
+}
+
 .container {
+  background-color: white;
   min-height: 100vh;
-  padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: black;
+
+  transition: background-color 3s ease-in-out;
 }
 
 .main {
-  padding: 5rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-width: 100vw;
+}
 
+.loaded-screen {
+  animation:fadein 3s;
+  color:red;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
 
 
-
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
 
 
