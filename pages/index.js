@@ -22,6 +22,7 @@ export default class Home extends React.Component {
         {/*Changes background colour*/}
         <Head>
           <title>Coding Club AMHS</title>
+          <link rel="icon" type="image/png" href="/favicon.png" />
         </Head>
   
         <main className={styles.main}>

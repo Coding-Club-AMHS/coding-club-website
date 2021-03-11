@@ -27,6 +27,13 @@ min-width: 100vw;
 
 h1 {
     font-size: 5vmin;
+    font-weight: bold;
+    padding: 2%;
+}
+
+#second {
+    width: 80vw;
+    font-weight: normal;
 }
 
 `
