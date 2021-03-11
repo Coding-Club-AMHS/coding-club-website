@@ -6,6 +6,9 @@ const ContactUs = () => {
             <Head>
                 <title>Contact Us</title>
             </Head>
+            <main>
+                
+            </main>
         </div>
     )
 }
