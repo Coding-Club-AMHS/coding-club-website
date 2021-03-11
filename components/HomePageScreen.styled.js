@@ -15,7 +15,8 @@ min-width: 100vw;
 @keyframes fadeIn {
     0% {
         opacity: 0;
-        transform: scale(0.5);
+        transform: rotate(15deg) scale(0.5);
+        
     }
 
     100% {
