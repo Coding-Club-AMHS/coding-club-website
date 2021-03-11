@@ -31,7 +31,7 @@ export default class Home extends React.Component {
   render() {
     const {hasFinishedLoading} = this.state;
     return (
-      <div className={styles.container} id={hasFinishedLoading ? null : styles.unloaded} onClick={() => this.setState({hasFinishedLoading: !hasFinishedLoading})}>
+      <div className={styles.container} id={hasFinishedLoading ? null : styles.unloaded} onClick={() => this.setState({hasFinishedLoading: true})}>
         {/*Changes background colour*/}
         <Head>
           <title>Coding Club AMHS</title>
