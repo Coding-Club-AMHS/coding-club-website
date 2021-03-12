@@ -13,16 +13,19 @@ const AboutUs = () => {
                 <title>About Us</title>
             </Head>
             <main className={styles.main}>
-                <Navbar isDark={true}/>
+                <Navbar isDark={true} />
                 <Container>
-                    <Row className={styles.containerrow}>
+                    <FadeInText>
+                        <Row className={styles.containerrow}>
                             <div className={styles.title}>
-                            Who are we?
+                                Who are we?
                             </div>
                             <Col className={styles.description}>
                                 We are a welcoming team of students who wish to promote coding within the AMHS community.
                             </Col>
-                    </Row>
+
+                        </Row>
+                    </FadeInText>
 
                 </Container>
 
