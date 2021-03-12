@@ -17,6 +17,7 @@
 #whoarewe {
   background-image: url('https://media.discordapp.net/attachments/773333544562327594/819703884624035900/2.png?width=965&height=543');
   background-size:cover;
+  background-attachment: fixed;
   color: white;
 }
 
