@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css'
 import React, {useState,useContext} from 'react';
 import Navbar from '../components/Navbar';
 import HomePageScreen from '../components/HomePageScreen';
+import NextButton from '../components/NextButton';
 
 const Home = () => {
     return (

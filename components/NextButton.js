@@ -1,16 +1,17 @@
 import React from 'react';
-import StyledNavbar from './Navbar.styled';
-
-const NextButton = ({before, after}) => {
+import StyledButton from './NextButton.styled'
+const NextButton = ({before,after}) => {
 
     return (
-        <StyledNavbar isDark={isDark}>
-            <button onClick={() => {window.location = '/'}}>Home</button>
-            <button onClick={() => {window.location = '/about-us'}}>About Us</button>
-            <button onClick={() => {window.location = '/contact-us'}}>Contact Us</button>
-            <button onClick={() => {window.location = '/resources'}}>Coding Resources</button>
-
-        </StyledNavbar>
+        <StyledButton>
+            {before 
+            ? <a href={before}><img src='/button.png' alt='Left button' style={{transform: rotate('180deg')}}/></a> 
+            : null}
+            {after 
+            ? <a href={after}><img src='/button.png' alt='Right button'/></a> 
+            : null}
+            
+        </StyledButton >
     )
 }
 
