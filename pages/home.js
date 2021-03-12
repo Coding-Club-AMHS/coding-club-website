@@ -1,12 +1,12 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import React from 'react';
+import React, {useState,useContext} from 'react';
 import Navbar from '../components/Navbar';
-import IntroScreen from '../components/IntroScreen';
+import HomePageScreen from '../components/HomePageScreen';
 
-const DefaultHome = () => {
+const Home = () => {
     return (
-      <div className={styles.container} id={styles.unloaded} onClick={() => window.location='/home'}>
+      <div className={styles.container}>
         {/*Changes background colour*/}
         <Head>
           <title>Coding Club AMHS</title>
@@ -14,12 +14,12 @@ const DefaultHome = () => {
         </Head>
   
         <main className={styles.main}>
-            <Navbar isDark={true}/>
+            <Navbar isDark={false}/>
             {/* loads initial screen */} 
-            <IntroScreen />
+            <HomePageScreen/>
         </main>
       </div>
     )
 }
 
-export default DefaultHome;
+export default Home;
