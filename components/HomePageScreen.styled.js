@@ -26,14 +26,18 @@ min-width: 100vw;
 }
 
 h1 {
-    font-size: 5vmin;
+    font-size: 6vmin;
     font-weight: bold;
+    width: 90vw;
     padding: 2%;
+    color: #002642;
 }
 
 #second {
-    width: 80vw;
+    font-size: 5vmin;
+    width: 75vw;
     font-weight: normal;
+    color:black;
 }
 
 `
