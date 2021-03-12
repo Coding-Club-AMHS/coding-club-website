@@ -26,7 +26,7 @@ export default class Home extends React.Component {
         </Head>
   
         <main className={styles.main}>
-            <Navbar />
+            <Navbar isDark={hasFinishedLoading ? false : true}/>
             {/* loads initial screen */} 
             {hasFinishedLoading ? <HomePageScreen /> : <IntroScreen />}
         </main>

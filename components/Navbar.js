@@ -1,10 +1,10 @@
 import React from 'react';
 import StyledNavbar from './Navbar.styled';
 
-const Navbar = () => {
+const Navbar = ({isDark}) => {
 
     return (
-        <StyledNavbar>
+        <StyledNavbar isDark={isDark}>
             <button onClick={() => {window.location = '/'}}>Home</button>
             <button onClick={() => {window.location = '/about-us'}}>About Us</button>
             <button onClick={() => {window.location = '/contact-us'}}>Contact Us</button>
