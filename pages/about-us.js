@@ -13,7 +13,7 @@ const AboutUs = () => {
                 <title>About Us</title>
             </Head>
             <main className={styles.main}>
-                <Navbar />
+                <Navbar isDark={true}/>
                 <Container>
                     <Row className={styles.containerrow}>
                         <div className={styles.title}>

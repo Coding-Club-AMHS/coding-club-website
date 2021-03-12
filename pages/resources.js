@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-
+import Navbar from '../components/Navbar'
 
 const Resources = () => {
     return (
@@ -9,6 +9,7 @@ const Resources = () => {
                 <title>Resources</title>
             </Head>
             <main className={styles.main}>
+                <Navbar isDark={false}/>
                 <div className={styles.title}>
                     Extra Resources
                 </div>

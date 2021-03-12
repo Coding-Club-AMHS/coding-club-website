@@ -10,7 +10,7 @@ const ContactUs = () => {
                 <title>Contact Us</title>
             </Head>
             <main className={styles.main}>
-                <Navbar />
+                <Navbar isDark={false}/>
                 <div className={styles.title}>
                     Contact Us
                 </div>
