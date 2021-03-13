@@ -50,6 +50,7 @@
   font-size: 600%;
   font-weight: bold;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 300px;
 }
 
 .description {
@@ -59,6 +60,14 @@
   line-height: 200%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
+}
+
+.bulletdescription {
+  text-align: left;
+  padding: 0% 10%;
+  font-size: 200%;
+  line-height: 200%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 @keyframes fadein {
@@ -77,5 +86,6 @@
 
 }
 
-
-
+.divpadding {
+  padding-bottom: 70px;
+}
