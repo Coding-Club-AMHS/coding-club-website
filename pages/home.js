@@ -7,7 +7,7 @@ import NextButton from '../components/NextButton';
 
 const Home = () => {
     return (
-      <div className={styles.container}>
+      <div className={styles.container} id={styles.home}>
         {/*Changes background colour*/}
         <Head>
           <title>Coding Club AMHS</title>

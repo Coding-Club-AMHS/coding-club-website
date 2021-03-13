@@ -2,9 +2,20 @@
   background-color: black;
 }
 
-.container {
+#home {
   background-image: linear-gradient(#DFF4E5, #65B1BD  );
-  background-color: white;
+}
+
+#contactus {
+  background-image: linear-gradient(#CF5C36, #D8Ae95);
+  color: white;
+}
+
+#contactus .title {
+  margin-top:5%;
+  
+}
+.container {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
