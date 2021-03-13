@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container'
 
 const StyledHomePageScreen = styled(Container)`
 display: flex;
-flex-direction: column;
+flex-direction: row;
 align-items:center;
 animation: fadeIn 3s;
 animation-fill-mode: forwards;  
@@ -38,6 +38,17 @@ h1 {
     width: 75vw;
     font-weight: normal;
     color:black;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nextbutton {
+    justify-self:flex-end;
+    margin-right: 5%;
 }
 
 `
