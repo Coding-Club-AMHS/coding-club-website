@@ -1,9 +1,3 @@
-## Current dependencies
+## To set up environment:
 
-next.js
-
-react
-
-react-dom
-
-@material-ui/core
+Clone this repo, then go onto a terminal and type in 'npm install'.
