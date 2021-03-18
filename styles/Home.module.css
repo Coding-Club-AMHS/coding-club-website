@@ -6,6 +6,9 @@
   background-image: linear-gradient(#DFF4E5, #65B1BD  );
 }
 
+#currentproject {
+  background-color: black;
+}
 #contactus {
   background-image: linear-gradient(#CF5C36, #D8Ae95);
   color: white;
@@ -36,6 +39,10 @@
   background-attachment: fixed;
   color: white;
   overflow-x: hidden;
+}
+
+#clubactivities {
+  background-color: black;
 }
 
 .main {
