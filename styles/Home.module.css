@@ -120,9 +120,12 @@
 }
 
 .nextbutton {
+  min-width: 100vw;
+  top:50vh;
   position:fixed;
   display:inline-flex;
   align-items: center;
+  z-index: 10;
 }
 #left {
   left:0;

@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row';
 import styles from '../styles/Home.module.css';
 import Navbar from '../components/Navbar';
 import FadeInText from '../components/FadeInText';
+import NextButton from '../components/NextButton';
 import Card from 'react-bootstrap/Card';
 import { CardDeck } from 'react-bootstrap';
 
@@ -96,9 +97,12 @@ const AboutUs = () => {
                     </FadeInText>
                    
                 </Container>
-
-
             </main>
+            
+            <div className={styles.nextbutton}>
+                <NextButton id={styles.left} before='/home' />
+                <NextButton id={styles.right} after='/club-activities' />
+            </div>
         </div>
     )
 }
