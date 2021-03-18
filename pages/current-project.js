@@ -10,7 +10,7 @@ const CurrentProject = () => {
                 <title>Current Project</title>
             </Head>
             <main className={styles.main}>
-                <Navbar isDark={false} />
+                <Navbar isDark={true} />
             </main>
             <div className={styles.nextbutton}>
                 <NextButton id={styles.left} before='/club-activities' />
