@@ -5,6 +5,7 @@ import Accordion from 'react-bootstrap/Accordion'
 import {Card, CardColumns } from 'react-bootstrap'
 import Button from 'react-bootstrap/Button'
 import FadeInText from '../components/FadeInText'
+import NextButton from '../components/NextButton';
 
 
 const Resources = () => {
@@ -18,6 +19,10 @@ const Resources = () => {
 
             <main className={styles.main}>
                 <Navbar isDark={false}/>
+                <div className={styles.nextbutton}>
+                    <NextButton id={styles.left} before='/club-activities' />
+                    <NextButton id={styles.right} after='/contact-us' />
+                </div>
             </main>
 
             <div className={styles.divpadding}>
@@ -129,7 +134,7 @@ const Resources = () => {
                                             <Card.Text>
                                                 <Button variant='secondary' href='https://docs.google.com/document/d/1_quYFPN4voaHYhRRI1Ox-XPmcgpb5V5nvz-rbLcKUWM/edit?usp=sharing' target={"_blank"}
                                                 >Questions</Button>
-                                                <Button variant='secondary' href='https://docs.google.com/document/d/1H1WAg_Ge758L_3pp8lVbu20tKYyem0taqxlj4TgfCkg/edit?usp=sharing' target={"_blank"}
+                                                <Button variant='dark' href='https://docs.google.com/document/d/1H1WAg_Ge758L_3pp8lVbu20tKYyem0taqxlj4TgfCkg/edit?usp=sharing' target={"_blank"}
                                                 >Solutions</Button>
                                             </Card.Text>
                                         </Card.Body>
