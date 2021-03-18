@@ -68,16 +68,16 @@ const AboutUs = () => {
                                     <Card bg='dark' border="danger" style={{ width: '20rem', height: '25rem'}}>
                                         <Card.Img variant="top" src='https://media.discordapp.net/attachments/773333544562327594/819703884624035900/2.png?width=965&height=543'/>
                                         <Card.Body>
-                                            <Card.Title>Laura</Card.Title>
+                                            <Card.Title>Laura Cao</Card.Title>
                                             <Card.Subtitle>Co-President</Card.Subtitle>
-                                            <Card.Text>Blurb</Card.Text>
+                                            <Card.Text>I'm a grade 12 IB student who loves everything math, coding, and art (except for graphic design)! You might see me around school painting questionable things for Ms. Hatzifotis.</Card.Text>
                                         </Card.Body>
                                     </Card>
 
                                     <Card bg='dark' border="warning" style={{ width: '20rem', height: '25rem'}}>
                                     <Card.Img variant="top" src='https://media.discordapp.net/attachments/773333544562327594/819703884624035900/2.png?width=965&height=543'/>
                                         <Card.Body>
-                                            <Card.Title>Alex</Card.Title>
+                                            <Card.Title>Alex Motor</Card.Title>
                                             <Card.Subtitle>Co-President</Card.Subtitle>
                                             <Card.Text>Blurb</Card.Text>
                                         </Card.Body>
@@ -86,7 +86,7 @@ const AboutUs = () => {
                                     <Card bg='dark' border="success" style={{ width: '20rem', height: '25rem'}}>
                                     <Card.Img variant="top" src='https://media.discordapp.net/attachments/773333544562327594/819703884624035900/2.png?width=965&height=543'/>
                                         <Card.Body>
-                                            <Card.Title>Joyce</Card.Title>
+                                            <Card.Title>Joyce Ye</Card.Title>
                                             <Card.Subtitle>Co-President</Card.Subtitle>
                                             <Card.Text>Blurb</Card.Text>
                                         </Card.Body>

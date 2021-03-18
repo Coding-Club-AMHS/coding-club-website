@@ -3,7 +3,21 @@
 }
 
 #home {
-  background-image: linear-gradient(#DFF4E5, #65B1BD  );
+  background-image: linear-gradient(aliceblue, 65%,  DarkSeaGreen  );
+}
+
+#home .title{
+  margin-top: 0px;
+}
+
+#home .description{
+  padding: 0%;
+  justify-content: left;
+  text-align: left;
+}
+
+#link {
+  color: red;
 }
 
 #currentproject {
@@ -18,6 +32,7 @@
 
 #currentproject .description {
   padding: 0%;
+
 }
 
 #clubactivities {

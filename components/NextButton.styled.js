@@ -21,7 +21,7 @@ const StyledButton = styled.button`
     h1:hover {
         text-decoration: none;
         color: powderblue;
-        color:${({ isDark }) => !isDark ? 'powderblue' : 'rgba(0,0,0,0.5)'};
+        color:${({ isDark }) => !isDark ? 'powderblue' : 'slategray'};
 
     }
 
