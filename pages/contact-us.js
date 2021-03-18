@@ -14,7 +14,7 @@ const ContactUs = () => {
                 <title>Contact Us</title>
             </Head>
             <main className={styles.main}>
-                <Navbar isDark={false} />
+                <Navbar isDark={true} />
                 <Container>
                     <FadeInText>
                         <Row className={styles.containerrow}>

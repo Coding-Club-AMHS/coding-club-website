@@ -30,8 +30,8 @@ const ClubActivities = () => {
                 </Container>
             </main>
             <div className={styles.nextbutton}>
-                <NextButton id={styles.left} before='/about-us' />
-                <NextButton id={styles.right} after='/current-project' />
+                <NextButton id={styles.left} isDark={true} before='/about-us' />
+                <NextButton id={styles.right} isDark={true} after='/current-project' />
             </div>
         </div>
     )
