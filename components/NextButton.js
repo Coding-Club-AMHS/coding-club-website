@@ -1,14 +1,14 @@
 import React from 'react';
 import StyledButton from './NextButton.styled'
-const NextButton = ({before,after, id=''}) => {
+const NextButton = ({before,after, id='', isDark = false}) => {
 
     return (
-        <StyledButton id={id}>
+        <StyledButton id={id} isDark = {isDark}>
             {before 
-            ? <a href={before}><img src='/button.png' alt='Left button' style={{transform: 'rotate(180deg)'}}/></a> 
+            ? <a href={before}><h1>{'〈'}</h1></a> 
             : null}
             {after 
-            ? <a href={after}><img src='/button.png' alt='Right button'/></a> 
+            ? <a href={after}><h1>{'〉'}</h1></a> 
             : null}
             
         </StyledButton >

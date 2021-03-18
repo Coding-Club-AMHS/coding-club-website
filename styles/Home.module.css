@@ -7,8 +7,31 @@
 }
 
 #currentproject {
-  background-color: black;
+  background-image: linear-gradient(midnightblue, 65%, goldenrod);
+  color: white;
+  overflow-x: hidden;
 }
+
+#currentproject .title {
+  margin-top:0px;
+}
+
+#currentproject .description {
+  padding: 0%;
+}
+
+#clubactivities {
+  background-image: linear-gradient(palegreen, salmon);
+}
+
+#clubactivities .title {
+  margin-top:0px;
+}
+
+#clubactivities .description {
+  padding: 0%;
+}
+
 #contactus {
   background-image: linear-gradient(#CF5C36, #D8Ae95);
   color: white;
@@ -45,9 +68,6 @@
 #resources {
   background-image: linear-gradient(#EBE360, #DFF4E5);
   
-}
-#clubactivities {
-  background-color: black;
 }
 
 
@@ -154,12 +174,10 @@
 
 #left {
   left:0;
-  padding-left: 2%;
   position: fixed;
 }
 #right {
   right:0;
-  padding-right: 2%;
   position: fixed;
 
 }

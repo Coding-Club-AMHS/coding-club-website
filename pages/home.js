@@ -20,7 +20,7 @@ const Home = () => {
         <HomePageScreen />
       </main>
       <div className={styles.nextbutton}>
-        <NextButton id={styles.right} after='/about-us' />
+        <NextButton id={styles.right} after='/about-us' isDark={true}/>
       </div>
     </div>
   )
