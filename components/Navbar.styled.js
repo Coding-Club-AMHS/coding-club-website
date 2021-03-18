@@ -11,6 +11,7 @@ const StyledNavbar = styled.nav`
     justify-content: center;
     align-items: center;
     display:flex;
+    border-bottom: solid ${({isDark}) => isDark ? 'white' : 'black'};
 
     button {
         background-color: rgba(0,0,0,0);
