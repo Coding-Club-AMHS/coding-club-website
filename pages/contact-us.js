@@ -1,11 +1,10 @@
 import Head from 'next/head'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import styles from '../styles/Home.module.css';
 import Navbar from '../components/Navbar';
 import FadeInText from '../components/FadeInText';
-
+import WhiteButton from '../components/WhiteButton';
 
 const ContactUs = () => {
     return (
@@ -26,7 +25,21 @@ const ContactUs = () => {
                             </div>
                         </Row>
                     </FadeInText>
-
+                    <FadeInText>
+                        <Row className={styles.containerrow}>
+                            <section className={styles.containercol}>
+                                <div className={styles.subtitle}>
+                                    Our socials:
+                                </div>
+                                <div className={styles.buttonlist}>
+                                    <WhiteButton onClick={() => window.open('https://classroom.google.com/c/MjE3MjE0MjgyMDc4?cjc=ieqmyxg')} text="Join our Google Classroom"/>
+                                    <WhiteButton onClick={() => window.open('https://discord.gg/bAeK5aBTAr')} text="Join our Discord server"/>
+                                    <WhiteButton onClick={() => window.open('https://www.instagram.com/coding_club_amhs/')} text="Follow our instagram account"/>
+                                    <WhiteButton onClick={() => window.open('https://github.com/Coding-Club-AMHS/')} text="Check out our GitHub organization"/>
+                                </div>
+                            </section>
+                        </Row>
+                    </FadeInText>
                 </Container>
 
             </main>
