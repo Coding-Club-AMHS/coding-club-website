@@ -1,7 +1,12 @@
 import Head from 'next/head'
+import Row from 'react-bootstrap/Row';
+import Container from 'react-bootstrap/Container';
+
 import styles from '../styles/Home.module.css';
 import Navbar from '../components/Navbar';
 import NextButton from '../components/NextButton';
+import FadeInText from '../components/FadeInText'
+
 
 const ClubActivities = () => {
     return (
@@ -10,7 +15,19 @@ const ClubActivities = () => {
                 <title>Club Activities</title>
             </Head>
             <main className={styles.main}>
-                <Navbar isDark={true} />
+                <Navbar isDark={false} />
+                <Container>
+                    <FadeInText>
+                        <Row className={styles.containerrow}>
+                            <div className={styles.title}>
+                                Our Club Activities
+                            </div>
+                            <div className={styles.description}>
+                                project description here
+                            </div>
+                        </Row>
+                    </FadeInText>
+                </Container>
             </main>
             <div className={styles.nextbutton}>
                 <NextButton id={styles.left} before='/about-us' />
