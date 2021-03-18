@@ -4,14 +4,17 @@ import CustomToggle from '../components/CustomToggle'
 import Accordion from 'react-bootstrap/Accordion'
 import {Card, CardColumns } from 'react-bootstrap'
 import Button from 'react-bootstrap/Button'
+import FadeInText from '../components/FadeInText'
 
 
 const Resources = () => {
     return (
         <div className={styles.container} id={styles.resources}>
-            <div className={styles.title}>
-                Extra Coding Resources 
-            </div>
+            <FadeInText>
+                <div className={styles.title}>
+                    Extra Coding Resources 
+                </div>
+            </FadeInText>
 
             <main className={styles.main}>
                 <Navbar isDark={false}/>
@@ -28,30 +31,30 @@ const Resources = () => {
                                 Below are various slideshow and resources for learning Java!
 
                                 <CardColumns>
-                                    <Card bg='light' border="dark" style={{ width: '15rem', height: '20rem'}}>
+                                    <Card bg='light' border="dark" >
                                         <Card.Header> Methods</Card.Header>
                                         <Card.Body>
-                                            <Card.Text> Methods are grate!
+                                            <Card.Text> 
                                                 <Button variant='secondary' href='https://docs.google.com/presentation/d/13nDWgEwVHant8PPtfCZ-iUx2UXr7dT-hlO6Kcn8qr9k/edit?usp=sharing' target={"_blank"}
                                                 > Slideshow</Button>
                                             </Card.Text>
                                         </Card.Body>
                                     </Card>
 
-                                    <Card bg='light' border="dark" style={{ width: '15rem', height: '20rem'}}>
+                                    <Card bg='light' border="dark">
                                         <Card.Header> Arrays</Card.Header>
                                         <Card.Body>
-                                            <Card.Text> Arrays are grate!
+                                            <Card.Text> 
                                                 <Button variant='secondary' href='https://docs.google.com/presentation/d/1ZEwfcr6rPY6joGuOgCf2OXqZo4mm4zWsokno67CxbbY/edit?usp=sharing' target={"_blank"}
                                                 > Slideshow</Button>
                                             </Card.Text>
                                         </Card.Body>
                                     </Card>
 
-                                    <Card bg='light' border="dark" style={{ width: '15rem', height: '20rem'}}>
+                                    <Card bg='light' border="dark" >
                                         <Card.Header> Loops</Card.Header>
                                         <Card.Body>
-                                            <Card.Text> Loops are grate!
+                                            <Card.Text> 
                                                 <Button variant='secondary' href='https://docs.google.com/presentation/d/1B4SPGZ434N5jqtqBtCNqI7AGMjADBld3nec1IEMPhtY/edit?usp=sharing' target={"_blank"}
                                                 > Slideshow</Button>
                                                 <Button variant='warning' href='https://drive.google.com/file/d/1Xse_lf5xSU7tERYYmuGuMawdsPscTu9V/view?usp=sharing' target={"_blank"}>
@@ -64,7 +67,7 @@ const Resources = () => {
                                         </Card.Body>
                                     </Card>
 
-                                    <Card bg='light' border="dark" style={{ width: '15rem', height: '20rem'}}>
+                                    <Card bg='light' border="dark">
                                         <Card.Header> Methods</Card.Header>
                                         <Card.Body>
                                             <Card.Text> Methods are grate!

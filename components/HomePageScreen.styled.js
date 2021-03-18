@@ -11,6 +11,7 @@ text-align: center;
 justify-content: center;
 min-height: 100vh;
 min-width: 100vw;
+overflow-x: hidden;
 
 @keyframes fadeIn {
     0% {
@@ -48,7 +49,7 @@ h1 {
 }
 .nextbutton {
     justify-self:flex-end;
-    margin-right: 5%;
+    padding-right: 2%;
 }
 
 `

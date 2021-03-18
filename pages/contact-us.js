@@ -5,6 +5,7 @@ import styles from '../styles/Home.module.css';
 import Navbar from '../components/Navbar';
 import FadeInText from '../components/FadeInText';
 import WhiteButton from '../components/WhiteButton';
+import NextButton from '../components/NextButton';
 
 const ContactUs = () => {
     return (
@@ -41,8 +42,11 @@ const ContactUs = () => {
                         </Row>
                     </FadeInText>
                 </Container>
-
             </main>
+            <div className={styles.nextbutton}>
+                <NextButton id={styles.left} before='/current-project' />
+                <NextButton id={styles.right} after='/resources' />
+            </div>
         </div>
     )
 }

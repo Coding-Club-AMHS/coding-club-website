@@ -12,7 +12,7 @@ const StyledButton = styled.button`
         width: auto;
     }
 
-    img:hover {
+    :hover {
         transform:scale(1.5);
     }
 
