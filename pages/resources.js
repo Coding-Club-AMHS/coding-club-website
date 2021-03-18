@@ -2,32 +2,39 @@ import styles from '../styles/Home.module.css'
 import Navbar from '../components/Navbar'
 import CustomToggle from '../components/CustomToggle'
 import Accordion from 'react-bootstrap/Accordion'
-import { Card, CardColumns } from 'react-bootstrap'
+import { Card, CardColumns, Fade } from 'react-bootstrap'
 import Button from 'react-bootstrap/Button'
 import FadeInText from '../components/FadeInText'
 import NextButton from '../components/NextButton';
+import Head from 'next/head'
+import WhiteButton from '../components/WhiteButton'
 
 
 const Resources = () => {
     return (
         <div className={styles.container} id={styles.resources}>
-            <FadeInText>
-                <div className={styles.title}>
-                    Extra Coding Resources
-                </div>
-            </FadeInText>
-
+            <Head>
+                <title>Extra Coding Resources</title>
+            </Head>
             <main className={styles.main}>
                 <Navbar isDark={false} />
+
+                <FadeInText>
+                    <div className={styles.title} style={{marginTop: "100px"}}>
+                    Extra Coding Resources
+                    </div>
+                </FadeInText>
+
                 <div className={styles.divpadding}>
                     <Accordion defaulltActiveKey="0">
+                        
                         <Card className={styles.resourcesbutton}>
                             <Card.Header>
                                 <CustomToggle eventKey="0"> Java Fundamentals</CustomToggle>
                             </Card.Header>
                             <Accordion.Collapse eventKey="0">
                                 <Card.Body>
-                                    Below are various slideshow and resources for learning Java!
+                                    Below are various slideshows and resources for learning Java!
 
                                     <CardColumns>
                                         <Card bg='light' border="dark" >
@@ -80,6 +87,83 @@ const Resources = () => {
                                     </CardColumns>
 
 
+                                </Card.Body>
+                            </Accordion.Collapse>
+                        </Card>
+                        <Card className={styles.resourcesbutton}>
+                            <Card.Header>
+                                <CustomToggle eventKey="3">Web Development </CustomToggle>
+                            </Card.Header>
+                            <Accordion.Collapse eventKey="3">
+                                <Card.Body>
+                                    Resources on the basics of web dev!
+
+                                    <CardColumns>
+                                        <Card bg='light' border="dark">
+                                            <Card.Header> HTML and CSS </Card.Header>
+                                            <Card.Body>
+                                                <Card.Text>
+                                                    <Button variant='outline-dark' href='https://docs.google.com/document/d/1jHQGanjgQ4abz_cGtTS-ebOwjllvVku9Ym7NDOHHfgc/edit?usp=sharing' target={"_blank"}
+                                                    > Notes</Button>
+                                                    <Button variant='outline-primary' href='https://developer.mozilla.org/en-US/docs/Web/HTML ' target={"_blank"}
+                                                    > HTML Docs</Button>
+                                                    <Button variant='outline-primary' href='https://developer.mozilla.org/en-US/docs/Web/CSS ' target={"_blank"}
+                                                    > CSS Docs</Button>
+                                                </Card.Text>
+                                            </Card.Body>
+                                        </Card>
+
+                                        <Card bg='light' border="dark">
+                                            <Card.Header> ReactJS </Card.Header>
+                                            <Card.Body>
+                                                <Card.Text>
+                                                    <Button variant='outline-dark' href='https://docs.google.com/document/d/1f95Lkvg-QYDTnfZd4JMg2wOYyV2GUTf6pNk6jqVq4qY/edit?usp=sharing' target={"_blank"}
+                                                    > Notes</Button>
+                                                    <Button variant='outline-primary' href='https://reactjs.org/docs/getting-started.html' target={"_blank"}
+                                                    > ReactJS Docs</Button>
+                                                    <Button variant='outline-primary' href='https://nextjs.org/docs ' target={"_blank"}
+                                                    > Next.JS Docs </Button>
+                                                </Card.Text>
+                                            </Card.Body>
+                                        </Card>
+
+                                        <Card bg='light' border="dark">
+                                            <Card.Header> Javascript </Card.Header>
+                                            <Card.Body>
+                                                <Card.Text>
+                                                    <Button variant='outline-dark' href='https://www.notion.so/JavaScript-Notes-b69c6fe8e20d42689c8e7d49004675ca' target={"_blank"}
+                                                    > Notes</Button>
+                                                    <Button variant='outline-primary' href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference ' target={"_blank"}
+                                                    > Javascript Docs</Button>
+                                                </Card.Text>
+                                            </Card.Body>
+                                        </Card>
+                                        
+                                    </CardColumns>
+                                </Card.Body>
+                            </Accordion.Collapse>
+                        </Card>
+
+                        <Card className={styles.resourcesbutton}>
+                            <Card.Header>
+                                <CustomToggle eventKey="4">App Development</CustomToggle>
+                            </Card.Header>
+                            <Accordion.Collapse eventKey="4">
+                                <Card.Body>
+                                    Resources on the basics of app dev!
+
+                                    <CardColumns>
+                                        <Card bg='light' border="dark">
+                                            <Card.Header> ReactNative </Card.Header>
+                                            <Card.Body>
+                                                <Card.Text>
+                                                    <Button variant='outline-primary' href='https://reactnative.dev/docs/getting-started' target={"_blank"}
+                                                    > ReactNative Docs</Button>
+                                                </Card.Text>
+                                            </Card.Body>
+                                        </Card>
+
+                                    </CardColumns>
                                 </Card.Body>
                             </Accordion.Collapse>
                         </Card>
@@ -169,59 +253,53 @@ const Resources = () => {
 
                         <Card className={styles.resourcesbutton}>
                             <Card.Header>
-                                <CustomToggle eventKey="3">Web Development Fundamentals</CustomToggle>
+                                <CustomToggle eventKey="5"> External Sites</CustomToggle>
                             </Card.Header>
-                            <Accordion.Collapse eventKey="3">
+                            <Accordion.Collapse eventKey="5">
                                 <Card.Body>
-                                    Resources on the basics of web dev!
-
+                                    Some extra EXTRA resources!
                                     <CardColumns>
                                         <Card bg='light' border="dark">
-                                            <Card.Header> HTML and CSS </Card.Header>
+                                            <Card.Header> Coding Learning Sites </Card.Header>
                                             <Card.Body>
                                                 <Card.Text>
-                                                    <Button variant='outline-dark' href='https://docs.google.com/document/d/1jHQGanjgQ4abz_cGtTS-ebOwjllvVku9Ym7NDOHHfgc/edit?usp=sharing' target={"_blank"}
-                                                    > Notes</Button>
-                                                    <Button variant='outline-dark' href='https://developer.mozilla.org/en-US/docs/Web/HTML ' target={"_blank"}
-                                                    > Detailed HTML Docs</Button>
-                                                    <Button variant='outline-dark' href='https://developer.mozilla.org/en-US/docs/Web/CSS ' target={"_blank"}
-                                                    > Detailed CSS Docs</Button>
+                                                    <Button variant='outline-primary' href='https://www.w3schools.com/' target={"_blank"}
+                                                    > W3Schools</Button>
+                                                    <Button variant='outline-dark' href='https://www.codecademy.com/' target={"_blank"}
+                                                    > CodeAcademy</Button>
+                                                    <Button variant='outline-danger' href='https://www.freecodecamp.org/' target={"_blank"}
+                                                    > FreeCodeCamp</Button>
+                                                    <Button variant='outline-primary' href='https://www.sololearn.com/' target={"_blank"}
+                                                    > SoloLearn</Button>
+                                                    <Button variant='outline-primary' href='https://www.coursera.org/' target={"_blank"}
+                                                    > Coursera</Button>
+                                                    <Button variant='outline-primary' href='https://www.udemy.com/' target={"_blank"}
+                                                    > Udemy</Button>
+                                                    <Button variant='outline-primary' href='https://www.edx.org/' target={"_blank"}
+                                                    >EDX</Button>
                                                 </Card.Text>
                                             </Card.Body>
                                         </Card>
-
                                         <Card bg='light' border="dark">
-                                            <Card.Header> ReactJS </Card.Header>
+                                            <Card.Header> Extra Practice </Card.Header>
                                             <Card.Body>
                                                 <Card.Text>
-                                                    <Button variant='outline-dark' href='https://docs.google.com/document/d/1f95Lkvg-QYDTnfZd4JMg2wOYyV2GUTf6pNk6jqVq4qY/edit?usp=sharing' target={"_blank"}
-                                                    > Notes</Button>
-                                                    <Button variant='outline-dark' href='https://reactjs.org/docs/getting-started.html' target={"_blank"}
-                                                    > ReactJS Docs</Button>
-                                                    <Button variant='outline-dark' href='https://nextjs.org/docs ' target={"_blank"}
-                                                    > Next.JS Docs </Button>
+                                                    <Button variant='outline-dark' href='https://dmoj.ca/' target={"_blank"}
+                                                    > DMOJ</Button>
+                                                    <Button variant='outline-danger' href='https://wcipeg.com/main' target={"_blank"}
+                                                    > WCIPEG</Button>
+                                                    <Button variant='outline-primary' href='https://cccgrader.com/' target={"_blank"}
+                                                    > CCC Grader</Button>
+                                                    <Button variant='outline-primary' href='https://www.codewars.com/' target={"_blank"}
+                                                    > CodeWars</Button>
                                                 </Card.Text>
                                             </Card.Body>
                                         </Card>
-
-                                        <Card bg='light' border="dark">
-                                            <Card.Header> Javascript </Card.Header>
-                                            <Card.Body>
-                                                <Card.Text>
-                                                    <Button variant='outline-dark' href='https://www.notion.so/JavaScript-Notes-b69c6fe8e20d42689c8e7d49004675ca' target={"_blank"}
-                                                    > Notes</Button>
-                                                    <Button variant='outline-dark' href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference ' target={"_blank"}
-                                                    > Javascript Docs</Button>
-                                                    <Button variant='outline-dark' href='https://nextjs.org/docs ' target={"_blank"}
-                                                    > Next.JS Docs </Button>
-                                                </Card.Text>
-                                            </Card.Body>
-                                        </Card>
-                                        
                                     </CardColumns>
                                 </Card.Body>
                             </Accordion.Collapse>
                         </Card>
+
 
                     </Accordion>
 
@@ -229,8 +307,7 @@ const Resources = () => {
 
 
             <div className={styles.nextbutton}>
-                <NextButton id={styles.left} before='/club-activities' />
-                <NextButton id={styles.right} after='/contact-us' />
+                <NextButton id={styles.left} before='/contact-us' isDark={true}/>
             </div>
 
         </main>

@@ -5,7 +5,7 @@ const StyledWhiteButton = styled.button`
     padding: 2vh;
     margin-top: 1vh;
     margin-bottom: 1vh;
-    border: none;
+    border-style:solid;
     border-radius: 2%;
     min-width: 7vw;
 
