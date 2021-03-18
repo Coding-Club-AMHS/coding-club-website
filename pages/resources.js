@@ -12,7 +12,7 @@ const Resources = () => {
         <div className={styles.container} id={styles.resources}>
             <FadeInText>
                 <div className={styles.title}>
-                    Extra Coding Resources 
+                    Extra Coding Resources
                 </div>
             </FadeInText>
 
@@ -68,12 +68,13 @@ const Resources = () => {
                                     </Card>
 
                                     <Card bg='light' border="dark">
-                                        <Card.Header> Methods</Card.Header>
+                                        <Card.Header> Variables</Card.Header>
                                         <Card.Body>
-                                            <Card.Text> Methods are grate!
-                                                <Button variant='secondary' href='https://docs.google.com/presentation/d/13nDWgEwVHant8PPtfCZ-iUx2UXr7dT-hlO6Kcn8qr9k/edit?usp=sharing' target={"_blank"}
+                                            <Card.Text>
+                                                <Button variant='secondary' href='https://docs.google.com/presentation/d/1nF8xtKBFemJNQlNRQgsLu3ZgVF8qZOOHR7yRsT5PmZ4/edit?usp=sharing' target={"_blank"}
                                                 > Slideshow</Button>
-                                                
+                                                <Button variant='warning' href='https://forms.gle/v98ntG8cBCQJwaAS7' target={"_blank"}
+                                                > Mini Quiz</Button>
                                             </Card.Text>
                                         </Card.Body>
                                     </Card>
@@ -90,7 +91,51 @@ const Resources = () => {
                         </Card.Header>
                         <Accordion.Collapse eventKey="1">
                             <Card.Body>
-                                insert challenges
+                                <CardColumns>
+
+                                    <Card bg='light' border="dark">
+                                        <Card.Header> Easy Challenges</Card.Header>
+                                        <Card.Body>
+                                            <Card.Text>
+                                                <Button variant='secondary' href='https://docs.google.com/document/d/1aXWVqrEfP0tjniNadOLqJdWWxMdG78RK0cCdIq_6sPs/edit?usp=sharing' target={"_blank"}
+                                                > Questions and Solutions</Button>
+                                            </Card.Text>
+                                        </Card.Body>
+                                    </Card>
+
+                                    <Card bg='light' border="dark">
+                                        <Card.Header> Medium Challenges</Card.Header>
+                                        <Card.Body>
+                                            <Card.Text>
+                                                <Button variant='secondary' href='https://docs.google.com/document/d/16Miv7GR6FGEcDsX9uf5awlcrl_9t-6G8bnRNcLfHePI/edit?usp=sharing' target={"_blank"}
+                                                >Questions and Solutions</Button>
+                                            </Card.Text>
+                                        </Card.Body>
+                                    </Card>
+
+                                    <Card bg='light' border="dark">
+                                        <Card.Header> Hard Challenges</Card.Header>
+                                        <Card.Body>
+                                            <Card.Text>
+                                                <Button variant='secondary' href='https://docs.google.com/document/d/15IFrwP-OsXPJynwTvDXsK5MSosxyeCoL5osTkH6weX4/edit?usp=sharing' target={"_blank"}
+                                                >Questions and Solutions</Button>
+                                            </Card.Text>
+                                        </Card.Body>
+                                    </Card>
+
+                                    <Card bg='light' border="dark">
+                                        <Card.Header>Winter Break Challenges</Card.Header>
+                                        <Card.Body>
+                                            <Card.Text>
+                                                <Button variant='secondary' href='https://docs.google.com/document/d/1_quYFPN4voaHYhRRI1Ox-XPmcgpb5V5nvz-rbLcKUWM/edit?usp=sharing' target={"_blank"}
+                                                >Questions</Button>
+                                                <Button variant='secondary' href='https://docs.google.com/document/d/1H1WAg_Ge758L_3pp8lVbu20tKYyem0taqxlj4TgfCkg/edit?usp=sharing' target={"_blank"}
+                                                >Solutions</Button>
+                                            </Card.Text>
+                                        </Card.Body>
+                                    </Card>
+
+                                </CardColumns>
                             </Card.Body>
                         </Accordion.Collapse>
                     </Card>
