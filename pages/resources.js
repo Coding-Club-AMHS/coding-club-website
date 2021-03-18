@@ -1,99 +1,101 @@
-import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Navbar from '../components/Navbar'
+import CustomToggle from '../components/CustomToggle'
+import Accordion from 'react-bootstrap/Accordion'
+import {Card, CardColumns } from 'react-bootstrap'
+import Button from 'react-bootstrap/Button'
+
 
 const Resources = () => {
     return (
-        <div className={styles.container}>
-            <Head>
-                <title>Resources</title>
-            </Head>
+        <div className={styles.container} id={styles.resources}>
+            <div className={styles.title}>
+                Extra Coding Resources 
+            </div>
+
             <main className={styles.main}>
                 <Navbar isDark={false}/>
-                <div className={styles.title}>
-                    Extra Resources
-                </div>
-                <div className={styles.description}>
-                Bee Movie Script - Dialogue Transcript
-
-According to all known laws
-of aviation,
-
-  
-there is no way a bee
-should be able to fly.
-
-  
-Its wings are too small to get
-its fat little body off the ground.
-
-  
-The bee, of course, flies anyway
-
-  
-because bees don't care
-what humans think is impossible.
-
-  
-Yellow, black. Yellow, black.
-Yellow, black. Yellow, black.
-
-  
-Ooh, black and yellow!
-Let's shake it up a little.
-
-  
-Barry! Breakfast is ready!
-
-  
-Ooming!
-
-  
-Hang on a second.
-
-  
-Hello?
-
-  
-- Barry?
-- Adam?
-
-  
-- Oan you believe this is happening?
-- I can't. I'll pick you up.
-
-  
-Looking sharp.
-
-  
-Use the stairs. Your father
-paid good money for those.
-
-  
-Sorry. I'm excited.
-
-  
-Here's the graduate.
-We're very proud of you, son.
-
-  
-A perfect report card, all B's.
-
-  
-Very proud.
-
-  
-Ma! I got a thing going here.
-
-  
-- You got lint on your fuzz.
-- Ow! That's me!
-
-  
-- Wave to us! We'll be in row 118,000.
-- Bye!
-                </div>
             </main>
+
+            <div className={styles.divpadding}>
+                <Accordion defaulltActiveKey="0">
+                    <Card className={styles.resourcesbutton}>
+                        <Card.Header>
+                            <CustomToggle eventKey="0"> Java Fundamentals</CustomToggle>
+                        </Card.Header>
+                        <Accordion.Collapse eventKey="0">
+                            <Card.Body>
+                                Below are various slideshow and resources for learning Java!
+
+                                <CardColumns>
+                                    <Card bg='light' border="dark" style={{ width: '15rem', height: '20rem'}}>
+                                        <Card.Header> Methods</Card.Header>
+                                        <Card.Body>
+                                            <Card.Text> Methods are grate!
+                                                <Button variant='secondary' href='https://docs.google.com/presentation/d/13nDWgEwVHant8PPtfCZ-iUx2UXr7dT-hlO6Kcn8qr9k/edit?usp=sharing' target={"_blank"}
+                                                > Slideshow</Button>
+                                            </Card.Text>
+                                        </Card.Body>
+                                    </Card>
+
+                                    <Card bg='light' border="dark" style={{ width: '15rem', height: '20rem'}}>
+                                        <Card.Header> Arrays</Card.Header>
+                                        <Card.Body>
+                                            <Card.Text> Arrays are grate!
+                                                <Button variant='secondary' href='https://docs.google.com/presentation/d/1ZEwfcr6rPY6joGuOgCf2OXqZo4mm4zWsokno67CxbbY/edit?usp=sharing' target={"_blank"}
+                                                > Slideshow</Button>
+                                            </Card.Text>
+                                        </Card.Body>
+                                    </Card>
+
+                                    <Card bg='light' border="dark" style={{ width: '15rem', height: '20rem'}}>
+                                        <Card.Header> Loops</Card.Header>
+                                        <Card.Body>
+                                            <Card.Text> Loops are grate!
+                                                <Button variant='secondary' href='https://docs.google.com/presentation/d/1B4SPGZ434N5jqtqBtCNqI7AGMjADBld3nec1IEMPhtY/edit?usp=sharing' target={"_blank"}
+                                                > Slideshow</Button>
+                                                <Button variant='warning' href='https://drive.google.com/file/d/1Xse_lf5xSU7tERYYmuGuMawdsPscTu9V/view?usp=sharing' target={"_blank"}>
+                                                    Which Alien Challenge
+                                                </Button>
+                                                <Button variant='success' href='https://drive.google.com/file/d/1t_lWZwC20MNZAPXTYWZG8OceKhOI0tax/view?usp=sharing' target={"_blank"}>
+                                                    Which Alien Solution
+                                                </Button>
+                                            </Card.Text>
+                                        </Card.Body>
+                                    </Card>
+
+                                    <Card bg='light' border="dark" style={{ width: '15rem', height: '20rem'}}>
+                                        <Card.Header> Methods</Card.Header>
+                                        <Card.Body>
+                                            <Card.Text> Methods are grate!
+                                                <Button variant='secondary' href='https://docs.google.com/presentation/d/13nDWgEwVHant8PPtfCZ-iUx2UXr7dT-hlO6Kcn8qr9k/edit?usp=sharing' target={"_blank"}
+                                                > Slideshow</Button>
+                                                
+                                            </Card.Text>
+                                        </Card.Body>
+                                    </Card>
+                                </CardColumns>
+
+
+                            </Card.Body>
+                        </Accordion.Collapse>
+                    </Card>
+
+                    <Card className={styles.resourcesbutton}>
+                        <Card.Header>
+                            <CustomToggle eventKey="1">Challenges</CustomToggle>
+                        </Card.Header>
+                        <Accordion.Collapse eventKey="1">
+                            <Card.Body>
+                                insert challenges
+                            </Card.Body>
+                        </Accordion.Collapse>
+                    </Card>
+
+                </Accordion>
+ 
+            </div>
+
         </div>
     )
 }
