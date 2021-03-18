@@ -118,3 +118,19 @@
 .divpadding {
   padding-bottom: 70px;
 }
+
+.nextbutton {
+  position:fixed;
+  display:inline-flex;
+  align-items: center;
+}
+#left {
+  left:0;
+  padding-left: 2%;
+  position: fixed;
+}
+#right {
+  right:0;
+  padding-right: 2%;
+  position: fixed;
+}
