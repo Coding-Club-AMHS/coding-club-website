@@ -88,7 +88,7 @@ const AboutUs = () => {
                                         <Card.Body>
                                             <Card.Title>Joyce Ye</Card.Title>
                                             <Card.Subtitle>Co-President</Card.Subtitle>
-                                            <Card.Text>Blurb</Card.Text>
+                                            <Card.Text>Hi! I'm also a senior year student finishing up the IB program!  My natural habitat is when I am able to listen to some KRnB music, while drawing random portraits of people I found on Pinterest.</Card.Text>
                                         </Card.Body>
                                     </Card>
                                 </CardDeck>
