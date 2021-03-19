@@ -263,19 +263,19 @@ const Resources = () => {
                                             <Card.Header> Coding Learning Sites </Card.Header>
                                             <Card.Body>
                                                 <Card.Text>
-                                                    <Button variant='outline-primary' href='https://www.w3schools.com/' target={"_blank"}
+                                                    <Button variant='outline-dark' href='https://www.w3schools.com/' target={"_blank"}
                                                     > W3Schools</Button>
                                                     <Button variant='outline-dark' href='https://www.codecademy.com/' target={"_blank"}
                                                     > CodeAcademy</Button>
-                                                    <Button variant='outline-danger' href='https://www.freecodecamp.org/' target={"_blank"}
+                                                    <Button variant='outline-dark' href='https://www.freecodecamp.org/' target={"_blank"}
                                                     > FreeCodeCamp</Button>
-                                                    <Button variant='outline-primary' href='https://www.sololearn.com/' target={"_blank"}
+                                                    <Button variant='outline-dark' href='https://www.sololearn.com/' target={"_blank"}
                                                     > SoloLearn</Button>
-                                                    <Button variant='outline-primary' href='https://www.coursera.org/' target={"_blank"}
+                                                    <Button variant='outline-dark' href='https://www.coursera.org/' target={"_blank"}
                                                     > Coursera</Button>
-                                                    <Button variant='outline-primary' href='https://www.udemy.com/' target={"_blank"}
+                                                    <Button variant='outline-dark' href='https://www.udemy.com/' target={"_blank"}
                                                     > Udemy</Button>
-                                                    <Button variant='outline-primary' href='https://www.edx.org/' target={"_blank"}
+                                                    <Button variant='outline-dark' href='https://www.edx.org/' target={"_blank"}
                                                     >EDX</Button>
                                                 </Card.Text>
                                             </Card.Body>
@@ -286,11 +286,11 @@ const Resources = () => {
                                                 <Card.Text>
                                                     <Button variant='outline-dark' href='https://dmoj.ca/' target={"_blank"}
                                                     > DMOJ</Button>
-                                                    <Button variant='outline-danger' href='https://wcipeg.com/main' target={"_blank"}
+                                                    <Button variant='outline-dark' href='https://wcipeg.com/main' target={"_blank"}
                                                     > WCIPEG</Button>
-                                                    <Button variant='outline-primary' href='https://cccgrader.com/' target={"_blank"}
+                                                    <Button variant='outline-dark' href='https://cccgrader.com/' target={"_blank"}
                                                     > CCC Grader</Button>
-                                                    <Button variant='outline-primary' href='https://www.codewars.com/' target={"_blank"}
+                                                    <Button variant='outline-dark' href='https://www.codewars.com/' target={"_blank"}
                                                     > CodeWars</Button>
                                                 </Card.Text>
                                             </Card.Body>
