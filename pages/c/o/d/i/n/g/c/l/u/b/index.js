@@ -16,16 +16,15 @@ const CurrentProject = () => {
             </Head>
             <main className={styles.main}>
                 <Container>
-                    <FadeInText>
                         <Row className={styles.containerrow}>
                             <div className={styles.title}>
                                 Congratulations for finding this page
                             </div>
                             <div className={styles.description}>
                                 this is why you dont trust ib kids with css
+                                Anyways, the bee movie script:
                             </div>
                         </Row>
-                    </FadeInText>
                 </Container>
 
             </main>

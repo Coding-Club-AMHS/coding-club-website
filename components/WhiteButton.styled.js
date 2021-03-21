@@ -6,7 +6,8 @@ const StyledWhiteButton = styled.button`
     margin-top: 1vh;
     margin-bottom: 1vh;
     border-style:solid;
-    border-radius: 2%;
+    border-color: darkslategray;
+    border-radius: 0%;
     min-width: 7vw;
 
     :hover {

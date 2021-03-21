@@ -1,6 +1,69 @@
 #secretpage {
-  background: linear-gradient(pink, blue, red, purple, yellow, green, DarkSeaGreen, DarkSlateGrey);
+  background: repeating-linear-gradient(190deg, rgba(255, 0, 0, 0.5) 40px,
+  rgba(255, 153, 0, 0.5) 80px, rgba(255, 255, 0, 0.5) 120px,
+  rgba(0, 255, 0, 0.5) 160px, rgba(0, 0, 255, 0.5) 200px,
+  rgba(75, 0, 130, 0.5) 240px, rgba(238, 130, 238, 0.5) 280px,
+  rgba(255, 0, 0, 0.5) 300px),
+repeating-linear-gradient(-190deg, rgba(255, 0, 0, 0.5) 30px,
+  rgba(255, 153, 0, 0.5) 60px, rgba(255, 255, 0, 0.5) 90px,
+  rgba(0, 255, 0, 0.5) 120px, rgba(0, 0, 255, 0.5) 150px,
+  rgba(75, 0, 130, 0.5) 180px, rgba(238, 130, 238, 0.5) 210px,
+  rgba(255, 0, 0, 0.5) 230px),
+repeating-linear-gradient(23deg, red 50px, orange 100px,
+  yellow 150px, green 200px, blue 250px,
+  indigo 300px, violet 350px, red 370px);
+  color: hotpink;
+
 }
+
+#secretpage .title {
+  animation-name: aaaaaa;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+#secretpage .description {
+  animation-name: aaaaaadesc;
+  animation-duration: 1.4s;
+  animation-iteration-count: infinite;
+}
+
+
+
+@keyframes aaaaaa {
+  0% { 
+    transform:scale(0.1) translateX(-50vw) rotate(80deg);
+
+  }
+
+  50% {
+    transform: translateY(-50vh);
+  }
+
+  100%   { 
+    transform: translateX(50vw) translateY(50vh);
+  }
+}
+
+@keyframes aaaaaadesc {
+  0% { 
+    transform:scale(0.1) translateX(-50vw);
+
+  }
+
+  25% {
+    transform: rotate(80deg);
+  }
+
+  75% {
+    transform: rotate(-80deg);
+  }
+
+  100%   { 
+    transform: scale(5) translateX(50vw) translateY(-50vh);
+  }
+}
+
 
 #unloaded {
   background-color: black;
