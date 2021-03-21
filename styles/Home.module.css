@@ -1,3 +1,7 @@
+#secretpage {
+  background: linear-gradient(pink, blue, red, purple, yellow, green, DarkSeaGreen, DarkSlateGrey);
+}
+
 #unloaded {
   background-color: black;
 }
@@ -72,7 +76,7 @@
 }
 
 #whoarewe {
-  background-image: url('https://media.discordapp.net/attachments/773333544562327594/819703884624035900/2.png?width=965&height=543');
+  background-image: url('/hackerman.png');
   background-size:cover;
   background-attachment: fixed;
   color: white;

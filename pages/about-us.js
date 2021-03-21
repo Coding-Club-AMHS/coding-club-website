@@ -66,7 +66,7 @@ const AboutUs = () => {
                             <div className={styles.divpadding}>
                                 <CardDeck>
                                     <Card bg='dark' border="danger" style={{ width: '20rem', height: '25rem'}}>
-                                        <Card.Img variant="top" src='https://media.discordapp.net/attachments/773333544562327594/819703884624035900/2.png?width=965&height=543'/>
+                                        <Card.Img variant="top" src='/hackerman.png'/>
                                         <Card.Body>
                                             <Card.Title>Laura Cao</Card.Title>
                                             <Card.Subtitle>Co-President</Card.Subtitle>
@@ -75,7 +75,7 @@ const AboutUs = () => {
                                     </Card>
 
                                     <Card bg='dark' border="warning" style={{ width: '20rem', height: '25rem'}}>
-                                    <Card.Img variant="top" src='https://media.discordapp.net/attachments/773333544562327594/819703884624035900/2.png?width=965&height=543'/>
+                                    <Card.Img variant="top" src='/hackerman.png'/>
                                         <Card.Body>
                                             <Card.Title>Alex Motor</Card.Title>
                                             <Card.Subtitle>Co-President</Card.Subtitle>
@@ -84,7 +84,7 @@ const AboutUs = () => {
                                     </Card>
 
                                     <Card bg='dark' border="success" style={{ width: '20rem', height: '25rem'}}>
-                                    <Card.Img variant="top" src='https://media.discordapp.net/attachments/773333544562327594/819703884624035900/2.png?width=965&height=543'/>
+                                    <Card.Img variant="top" src='/hackerman.png'/>
                                         <Card.Body>
                                             <Card.Title>Joyce Ye</Card.Title>
                                             <Card.Subtitle>Co-President</Card.Subtitle>
