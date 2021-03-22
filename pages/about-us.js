@@ -74,7 +74,7 @@ const AboutUs = () => {
                                         </Card.Body>
                                     </Card>
 
-                                    <Card bg='dark' border="warning" style={{ width: '20rem', height: '25rem'}}>
+                                    <Card bg='dark' border="danger" style={{ width: '20rem', height: '25rem'}}>
                                     <Card.Img variant="top" src='/hackerman.png'/>
                                         <Card.Body>
                                             <Card.Title>Alex Motor</Card.Title>
@@ -83,14 +83,72 @@ const AboutUs = () => {
                                         </Card.Body>
                                     </Card>
 
-                                    <Card bg='dark' border="success" style={{ width: '20rem', height: '25rem'}}>
-                                    <Card.Img variant="top" src='/hackerman.png'/>
+                                    <Card bg='dark' border="danger" style={{ width: '20rem', height: '25rem'}}>
+                                    <Card.Img variant="top" src='/JoyceYeLInkedin.JPG'/>
                                         <Card.Body>
                                             <Card.Title>Joyce Ye</Card.Title>
                                             <Card.Subtitle>Co-President</Card.Subtitle>
-                                            <Card.Text>Hi! I'm also a senior year student finishing up the IB program!  My natural habitat is when I am able to listen to some KRnB music, while drawing random portraits of people I found on Pinterest.</Card.Text>
+                                            <Card.Text>Hi! I'm also a senior year student finishing up the IB program!  My natural habitat is when I am able to listen to some KRnB music, while drawing random portraits of people I find on Pinterest.</Card.Text>
                                         </Card.Body>
                                     </Card>
+                                </CardDeck>
+                            </div>  
+                            <div className={styles.divpadding}>
+                                <CardDeck>
+                                    <Card bg='dark' border="warning" style={{ width: '20rem', height: '25rem'}}>
+                                        <Card.Img variant="top" src='/hackerman.png'/>
+                                        <Card.Body>
+                                            <Card.Title>Exec 1</Card.Title>
+                                            <Card.Subtitle>Role</Card.Subtitle>
+                                            <Card.Text>blurb</Card.Text>
+                                        </Card.Body>
+                                    </Card>
+                                    <Card bg='dark' border="warning" style={{ width: '20rem', height: '25rem'}}>
+                                        <Card.Img variant="top" src='/hackerman.png'/>
+                                        <Card.Body>
+                                            <Card.Title>Exec 1</Card.Title>
+                                            <Card.Subtitle>Role</Card.Subtitle>
+                                            <Card.Text>blurb</Card.Text>
+                                        </Card.Body>
+                                    </Card>
+                                    <Card bg='dark' border="warning" style={{ width: '20rem', height: '25rem'}}>
+                                        <Card.Img variant="top" src='/hackerman.png'/>
+                                        <Card.Body>
+                                            <Card.Title>Exec 1</Card.Title>
+                                            <Card.Subtitle>Role</Card.Subtitle>
+                                            <Card.Text>blurb</Card.Text>
+                                        </Card.Body>
+                                    </Card>
+                                    
+                                </CardDeck>
+                            </div>  
+                            <div className={styles.divpadding}>
+                                <CardDeck>
+                                    <Card bg='dark' border="primary" style={{ width: '20rem', height: '25rem'}}>
+                                        <Card.Img variant="top" src='/hackerman.png'/>
+                                        <Card.Body>
+                                            <Card.Title>Exec 1</Card.Title>
+                                            <Card.Subtitle>Role</Card.Subtitle>
+                                            <Card.Text>blurb</Card.Text>
+                                        </Card.Body>
+                                    </Card>
+                                    <Card bg='dark' border="primary" style={{ width: '20rem', height: '25rem'}}>
+                                        <Card.Img variant="top" src='/hackerman.png'/>
+                                        <Card.Body>
+                                            <Card.Title>Exec 1</Card.Title>
+                                            <Card.Subtitle>Role</Card.Subtitle>
+                                            <Card.Text>blurb</Card.Text>
+                                        </Card.Body>
+                                    </Card>
+                                    <Card bg='dark' border="primary" style={{ width: '20rem', height: '25rem'}}>
+                                        <Card.Img variant="top" src='/hackerman.png'/>
+                                        <Card.Body>
+                                            <Card.Title>Exec 1</Card.Title>
+                                            <Card.Subtitle>Role</Card.Subtitle>
+                                            <Card.Text>blurb</Card.Text>
+                                        </Card.Body>
+                                    </Card>
+                                    
                                 </CardDeck>
                             </div>  
                         </Row>
