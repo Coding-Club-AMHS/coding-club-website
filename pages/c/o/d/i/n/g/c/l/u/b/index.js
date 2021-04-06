@@ -23,6 +23,7 @@ const CurrentProject = () => {
                             <div className={styles.description}>
                                 this is why you dont trust ib kids with css
                                 Anyways, the bee movie script:
+
                             </div>
                         </Row>
                 </Container>
